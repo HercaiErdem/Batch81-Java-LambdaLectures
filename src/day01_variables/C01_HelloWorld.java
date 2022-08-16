@@ -7,7 +7,7 @@ public class C01_HelloWorld {
         System.out.println("Hello World, Hello Java");
 
         System.out.println("Ben bu Javayi yapiyorum :)");
-
+        System.out.println(" Github dersinden geliyorum pull yapmak icin :)");
 
     }
 }

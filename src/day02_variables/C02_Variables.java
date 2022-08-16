@@ -20,6 +20,7 @@ public class C02_Variables {
         int ort = (sayi+sayi1) /2 ;
         System.out.println("ort = " + ort);
         
-        
+
     }
+
 }
