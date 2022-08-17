@@ -1,4 +1,4 @@
-package lambda_functional_programminging;
+package lambda_functional_programming;
 
 import java.util.ArrayList;
 import java.util.List;
