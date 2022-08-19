@@ -221,7 +221,7 @@ public class Fp01 {
 
         System.out.println("sonuc = " + sonuc);
 
- System.out.println ("Bunu pull yapayim")
+ System.out.println ("Bunu pull yapayim");
      
     }
 
