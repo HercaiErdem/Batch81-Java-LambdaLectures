@@ -43,7 +43,13 @@ public class Fp03 {
 
         //  baslangiciAYadaSonuNOlaniSil02(liste);
 
-       // uzunluguSekizIleOnArasiVeOILeBiteniSil(liste);
+        // uzunluguSekizIleOnArasiVeOILeBiteniSil(liste);
+
+        System.out.println("uzunluguOnIkidenAzMi= " + uzunluguOnIkidenAzMi(liste));
+
+        System.out.println("xIleBaslamiyorMu= " + xIleBaslamiyorMu(liste));
+
+        System.out.println("rIleBitenVarMi= " + rIleBitenVarMi(liste));
 
 
     }
@@ -127,13 +133,33 @@ public class Fp03 {
 
     //8) Uzunluğu 8 ile 10 arası olan ya da 'o' ile biten elemanları silen bir method oluşturun.
 
- //  public static void uzunluguSekizIleOnArasiVeOILeBiteniSil (List<String> list){
+    //  public static void uzunluguSekizIleOnArasiVeOILeBiteniSil (List<String> list){
 
- //      list.removeIf(t->(t.length()>7)&& t.length()<11 || t.endsWith("o"));
+    //      list.removeIf(t->(t.length()>7)&& t.length()<11 || t.endsWith("o"));
 
- //      System.out.println(list);
+    //      System.out.println(list);
 
 
+//9) Tüm elemanların uzunluklarının 12'den az olup olmadığını kontrol eden bir method oluşturun.
+
+    public static boolean uzunluguOnIkidenAzMi(List<String> list) {
+
+        return list.stream().allMatch(t -> t.length() < 12);
+
+    }
+//10) Hiçbir elemanın 'X' ile başlamadığını kontrol eden bir method oluşturun.
+
+    public static boolean xIleBaslamiyorMu(List<String>list){
+
+       return list.stream().noneMatch(t->t.startsWith("X"));
+    }
+
+    //11) Herhangi bir elemanın 'r' ile bitip bitmediğini kontrol eden bir method oluşturun.
+
+    public static boolean rIleBitenVarMi (List<String>list){
+
+        return list.stream().anyMatch(t->t.endsWith("r"));
+    }
 
 }
 
