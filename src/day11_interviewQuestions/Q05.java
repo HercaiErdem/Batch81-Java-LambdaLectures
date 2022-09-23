@@ -2,7 +2,7 @@ package day11_interviewQuestions;
 
 public class Q05 {
     public static void main(String[] args) {
-//nrmal toplmama methodu varargs ile toplama methodu yaziniz
+//normal toplama methodu varargs ile toplama methodu yaziniz
         int[] arr = {17, 23, 33, 9, 20, 55};
         System.out.println("arrTopla(arr) = " + arrTopla(arr));
         varargsToplaList(25, 55, 63, 21, 20);
