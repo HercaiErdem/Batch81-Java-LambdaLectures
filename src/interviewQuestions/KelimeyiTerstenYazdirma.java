@@ -7,15 +7,15 @@ public class KelimeyiTerstenYazdirma {
 
         // 1. yol
         String isim = "Hercai Sevval Erdem";
-        String tersttenIsim = "";
+        String terstenIsim = "";
 
         for (int i = isim.length() - 1; i >= 0; i--) {
-            tersttenIsim = tersttenIsim + isim.charAt(i);
+            terstenIsim = terstenIsim + isim.charAt(i);
         }
-        System.out.println("Hercai Sevval Erdem in tersten yazilimi: \n" +tersttenIsim);
+        System.out.println("Hercai Sevval Erdem in tersten yazilimi: \n" +terstenIsim);
 
         // 2. yol kullanicidan isim girilmesi istenirse (scanner ile)
-        System.out.println("===========Konsola kullanici ismini girer==============");
+        System.out.println("===========Scanner object ile kullanicidan isim girmesini isteriz=============");
         Scanner scan = new Scanner(System.in);
         System.out.print("Lutfen isminizi giriniz: ");
         String isim2= scan.nextLine();
