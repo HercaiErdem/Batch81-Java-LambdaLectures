@@ -15,27 +15,18 @@ public class TersYazdirma02 {
         }
         System.out.println(terstenNumber);
 
+
+
+
+
+
+
+        }
+
+
+
     }
 
-    Scanner scan= new Scanner(System.in);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
