@@ -20,7 +20,6 @@ OOP’nin bu özelliği sayesinde ortak özellikler barındıran bir grubun her 
 ayrı ayrı girilmesine gerek duyulmamaktadır. Onlar için özel bir class oluşturulabilir ve her birine aynı özellikler verilebilir.
 
 ===heritance (Kalıtım)===
-
 Inheritance (kalıtım) bir class dan başka bir class türetirken aralarında bir alt-üst(parent-child) ilişkisi oluşturmayı ve bu
 class lar üzerinde ortak metotlar ve özellikler kullanılmasını sağlayan bir mekanizmadır. OPP'nin temel kavramlarından biridir.
 Hali hazırda var olan class ların üzerine başka class ların inşa edilmesini sağlar.
