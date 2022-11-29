@@ -34,7 +34,6 @@ ve aynı paket içinde bulunan sınıflar tarafından görüntülenebilir veya e
 yalnızca içinde olduğu class tarafından görülebilir veya erişilebilirler.
 
 ===Polymorphism (Polimorfizm)===
-
 Polymorphism OOP'de programlama dilinin farklı tip verileri ve sınıfları farklı şekilde işleme yeteneğini belirten özelliğidir. Yani, metotları ve
 türetilmiş class ları yeniden tanımlama yeteneğidir. Örnek olarak şekil diye bir class olsun; polymorphism sayesinde programcı farklı şekillerin
 alanlarını farklı metotlar ile belirleyebilir. Şeklin ne olduğu fark etmeksizin program kullanıcıya doğru alanı verecektir. Kelime anahtarı olarak
