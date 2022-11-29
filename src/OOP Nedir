@@ -40,7 +40,7 @@ alanlarını farklı metotlar ile belirleyebilir. Şeklin ne olduğu fark etmeks
 Override aklımıza gelebilir.
 
 
-Abstraction (Soyutlama):
+===Abstraction (Soyutlama)===
 
 Abstraction OPP’nin temel kavramlarından biridir. Alt sınıfların ortak özelliklerini ve işlevlerini taşıyan ancak henüz bir object tii olmayan
 bir üst sınıf oluşturmak istenirse bir soyut (abstract) üst sınıf oluşturulur. Soyut class ın yöntemleri alt class ları tarafından üzerine yazılmak
