@@ -33,7 +33,7 @@ daha güvenli bir access modifier’dır. Aynı class içinde görüntülenebili
 ve aynı paket içinde bulunan sınıflar tarafından görüntülenebilir veya erişebilirler. Private en güvenli access modifier’dır. Private olanlar
 yalnızca içinde olduğu class tarafından görülebilir veya erişilebilirler.
 
-Polymorphism (Polimorfizm):
+===Polymorphism (Polimorfizm)===
 
 Polymorphism OOP'de programlama dilinin farklı tip verileri ve sınıfları farklı şekilde işleme yeteneğini belirten özelliğidir. Yani, metotları ve
 türetilmiş class ları yeniden tanımlama yeteneğidir. Örnek olarak şekil diye bir class olsun; polymorphism sayesinde programcı farklı şekillerin
