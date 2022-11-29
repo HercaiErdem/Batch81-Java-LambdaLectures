@@ -1,0 +1,51 @@
+Object Oriented Programming(OOP) Nedir?
+
+Object Oriented Programming(OOP) mantıksal işlemlerden ziyade, object lere(nesne) ve object ler
+üzerinde işlemlere odaklanan programlama dili modelidir. OOP’de programlar, object lerin birbirileriyle
+etkileşime geçmeleri sağlanmasıyla tasarlanır. Java, C++, C#, Python, PHP, JavaScript gibi diller başlıca
+Object Oriented Programming dilleridir.
+
+Nesneye yönelik programlama her şey bir nesne olarak temsil edilir ve programlar yürütüldüğünde,
+nesneler mesajlar ileterek birbirleriyle etkileşime girer.
+
+OOP, Class(sınıf), Objects(nesneler) ve bu ikisi etrafında dönen Inheritance(katılım), Polymorphism(polimorfizm),
+Abstraction(soyutlama), Encapsulation(kapsülleme) gibi diğer kavramlarla ilişkili bir programlama biçimidir.
+
+Object ve Class:
+
+Class belli tür bir object in metotlarının ve değişkenlerinin şablon tanımıdır. Yani bir object bir class ın özel
+bir örneğidir ve değişkenlerden ziyade gerçek değişkenler barındırır. Örneğin “Student” diye bir class olsun.
+Bu class daki her öğrenci birer objectir ve isim, soyisim, öğrencinin ganosu gibi özellikleri mevcuttur.
+OOP’nin bu özelliği sayesinde ortak özellikler barındıran bir grubun her üyesi için özellik başlıkları (attributes)
+ayrı ayrı girilmesine gerek duyulmamaktadır. Onlar için özel bir class oluşturulabilir ve her birine aynı özellikler verilebilir.
+
+Inheritance (Kalıtım):
+
+Inheritance (kalıtım) bir class dan başka bir class türetirken aralarında bir alt-üst(parent-child) ilişkisi oluşturmayı ve bu
+class lar üzerinde ortak metotlar ve özellikler kullanılmasını sağlayan bir mekanizmadır. OPP'nin temel kavramlarından biridir.
+Hali hazırda var olan class ların üzerine başka class ların inşa edilmesini sağlar.
+
+Encapsulation (Kapsülleme):
+
+Encapsulation OOP’nin temel kavramlarından biridir. Genel tanımıyla kullanıcı tarafından verilerin, class ların ve metotların
+ne kadarının görüntülenebileceği ve değiştirilebileceğinin sınırlarının konulmasını sağlar. Public, private ve protected olmak
+üzere üç adet access modifier’dan (erişim dönüştürücüsü) bahsedilebilir. Public olanlar herkes tarafından görülebilir ve değiştirilebilir.
+Public modifier dış kullanıcı tarafından eklenmesi veya değiştirilmesi istenen veriler için kullanılır. Protected modifier, public modifier’dan
+daha güvenli bir access modifier’dır. Aynı class içinde görüntülenebilir veya erişilebilirler. Aynı zamanda üst class lar, ondan türetilmiş class lar
+ve aynı paket içinde bulunan sınıflar tarafından görüntülenebilir veya erişebilirler. Private en güvenli access modifier’dır. Private olanlar
+yalnızca içinde olduğu class tarafından görülebilir veya erişilebilirler.
+
+Polymorphism (Polimorfizm):
+
+Polymorphism OOP'de programlama dilinin farklı tip verileri ve sınıfları farklı şekilde işleme yeteneğini belirten özelliğidir. Yani, metotları ve
+türetilmiş class ları yeniden tanımlama yeteneğidir. Örnek olarak şekil diye bir class olsun; polymorphism sayesinde programcı farklı şekillerin
+alanlarını farklı metotlar ile belirleyebilir. Şeklin ne olduğu fark etmeksizin program kullanıcıya doğru alanı verecektir. Kelime anahtarı olarak
+Override aklımıza gelebilir.
+
+
+Abstraction (Soyutlama):
+
+Abstraction OPP’nin temel kavramlarından biridir. Alt sınıfların ortak özelliklerini ve işlevlerini taşıyan ancak henüz bir object tii olmayan
+bir üst sınıf oluşturmak istenirse bir soyut (abstract) üst sınıf oluşturulur. Soyut class ın yöntemleri alt class ları tarafından üzerine yazılmak
+üzere şablon olarak tanımlanabilir veya soyut metot olarak oluşturulabilir. Soyut metota sahip bir class otomatik olarak kendisi de soyut hale gelir
+ve soyut class lardan object oluşturulmaz.
