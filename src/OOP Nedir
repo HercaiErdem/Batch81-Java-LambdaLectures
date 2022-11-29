@@ -13,7 +13,6 @@ OOP, Class(sınıf), Objects(nesneler) ve bu ikisi etrafında dönen Inheritance
 Abstraction(soyutlama), Encapsulation(kapsülleme) gibi diğer kavramlarla ilişkili bir programlama biçimidir.
 
 ===Object ve Class===
-
 Class belli tür bir object in metotlarının ve değişkenlerinin şablon tanımıdır. Yani bir object bir class ın özel
 bir örneğidir ve değişkenlerden ziyade gerçek değişkenler barındırır. Örneğin “Student” diye bir class olsun.
 Bu class daki her öğrenci birer objectir ve isim, soyisim, öğrencinin ganosu gibi özellikleri mevcuttur.
