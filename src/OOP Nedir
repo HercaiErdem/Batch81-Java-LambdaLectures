@@ -12,7 +12,7 @@ nesneler mesajlar ileterek birbirleriyle etkileşime girer.
 OOP, Class(sınıf), Objects(nesneler) ve bu ikisi etrafında dönen Inheritance(katılım), Polymorphism(polimorfizm),
 Abstraction(soyutlama), Encapsulation(kapsülleme) gibi diğer kavramlarla ilişkili bir programlama biçimidir.
 
-Object ve Class:
+===Object ve Class===
 
 Class belli tür bir object in metotlarının ve değişkenlerinin şablon tanımıdır. Yani bir object bir class ın özel
 bir örneğidir ve değişkenlerden ziyade gerçek değişkenler barındırır. Örneğin “Student” diye bir class olsun.
