@@ -1,8 +1,6 @@
 package day44_collections;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class C02_ListIterator {
     public static void main(String[] args) {
