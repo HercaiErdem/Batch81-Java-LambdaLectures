@@ -1,14 +1,12 @@
 package day47_maps;
 
-import day46_maps.ReusableMethods;
-
-import java.util.Map;
-import java.util.Set;
+import day46_maps.*;
+import java.util.*;
 
 public class C04_Entry {
     public static void main(String[] args) {
         /*
-          Java Entry<K,V> map'in ivcerisinde bulunan her bir kaydi
+          Java Entry<K,V> map'in icerisinde bulunan her bir kaydi
           K=V seklinde tutar
           dolayisiyla herhangi bir Entry'e ulastigimizda
           hem key'e hem de value'ya ulasabilir ve istedigimiz islemleri yapabiliriz
