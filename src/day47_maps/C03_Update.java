@@ -1,11 +1,7 @@
 package day47_maps;
 
-import day46_maps.ReusableMethods;
-
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import day46_maps.*;
+import java.util.*;
 
 public class C03_Update {
     public static void main(String[] args) {
@@ -23,6 +19,8 @@ public class C03_Update {
         System.out.println(sinifListMap.containsKey(114)); // false
         System.out.println(sinifListMap.containsValue("Ali, Can, JDev")); // true
         System.out.println(sinifListMap.containsValue("JDev")); // false
+
+        System.out.println(sinifListMap.containsKey("Enes, Can, Tester"));
         // Verilen map'de JDev degerlerini JavaDeveloper olarak degistirelim
         // Map'lerde replace tum value'yu degistirmek istersek kullanilabilir
         // kismi degisikliklerde kullanamayiz
@@ -40,11 +38,11 @@ public class C03_Update {
             sinifListMap.put(each, eachValue);
             /*
              biz key'lerin tamamini aldik
-             herbir key'in value'sunu get'irdik
+             herbir key'in value'sunu getirdik
              value uzerinde degisikligi yapip
              yeni halini put(key, yeniDeger) ile map'e koyduk
              */
         }
-        System.out.println(sinifListMap);
+      //  System.out.println(sinifListMap);
     }
 }
