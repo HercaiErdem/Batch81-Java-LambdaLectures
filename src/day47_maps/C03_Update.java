@@ -20,7 +20,8 @@ public class C03_Update {
         System.out.println(sinifListMap.containsValue("Ali, Can, JDev")); // true
         System.out.println(sinifListMap.containsValue("JDev")); // false
 
-        System.out.println(sinifListMap.containsKey("Enes, Can, Tester"));
+        System.out.println(sinifListMap.containsValue("Enes, Can, Tester")); //true
+        System.out.println(sinifListMap.containsKey(107)); // true
         // Verilen map'de JDev degerlerini JavaDeveloper olarak degistirelim
         // Map'lerde replace tum value'yu degistirmek istersek kullanilabilir
         // kismi degisikliklerde kullanamayiz
