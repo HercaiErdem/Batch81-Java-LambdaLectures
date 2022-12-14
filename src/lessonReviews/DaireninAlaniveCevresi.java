@@ -13,6 +13,7 @@ Ornek Cikti:
 43.96
 153.86
      */
+    /*
 
     public static void main(String[] args) {
 
@@ -26,18 +27,23 @@ Ornek Cikti:
 
         double cevre = 2*(r*pi); // formul 2* yar cap carpi pi
         System.out.println("Dairenin cevresi: " + cevre);
+*/
 
+    public static void main(String[] args) {
+        int r = 7;
+        double pi = 3.14;
 
+        double daireninCevresi = 2 * (pi * r);
+        System.out.println("daireninCevresi = " + daireninCevresi);
 
-
-
-
-
-
-
+        double daireninAlani = pi * (r * r);
+        System.out.println("daireninAlani = " + daireninAlani);
 
 
     }
 
 
 }
+
+
+
