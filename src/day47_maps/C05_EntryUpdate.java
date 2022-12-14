@@ -1,9 +1,7 @@
 package day47_maps;
 
-import day46_maps.ReusableMethods;
-
-import java.util.Map;
-import java.util.Set;
+import day46_maps.*;
+import java.util.*;
 
 public class C05_EntryUpdate {
     public static void main(String[] args) {
