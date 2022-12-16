@@ -24,7 +24,7 @@ Inheritance (kalıtım) bir class dan başka bir class türetirken aralarında b
 class lar üzerinde ortak metotlar ve özellikler kullanılmasını sağlayan bir mekanizmadır. OPP'nin temel kavramlarından biridir.
 Hali hazırda var olan class ların üzerine başka class ların inşa edilmesini sağlar.
 
-===Encapsulation (Kapsülleme)===
+===Encapsulation (Kapsülleme)
 Encapsulation OOP’nin temel kavramlarından biridir. Genel tanımıyla kullanıcı tarafından verilerin, class ların ve metotların
 ne kadarının görüntülenebileceği ve değiştirilebileceğinin sınırlarının konulmasını sağlar. Public, private ve protected olmak
 üzere üç adet access modifier’dan (erişim dönüştürücüsü) bahsedilebilir. Public olanlar herkes tarafından görülebilir ve değiştirilebilir.
