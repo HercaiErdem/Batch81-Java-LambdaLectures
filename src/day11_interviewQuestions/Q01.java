@@ -9,6 +9,7 @@ public class Q01 {
      Ornek: yapacan ==> a = 3, y = 1, p = 1, n = 1, c = 1
             hallolur yaaa   ==> a=4  l=3 h=1 o=1 u=1 y=1
     */
+
     /*
     daha oncelikler Scannner obj olusturcaz
     onceliklr split methodu kullanicaz
