@@ -1,7 +1,7 @@
 
 Object Oriented Programming(OOP) Nedir?
 
-Object Oriented Programming(OOP) mantıksal işlemlerden ziyade, object lere(nesne) ve object ler
+OOP mantıksal işlemlerden ziyade, object lere(nesne) ve object ler
 üzerinde işlemlere odaklanan programlama dili modelidir. OOP’de programlar, object lerin birbirileriyle
 etkileşime geçmeleri sağlanmasıyla tasarlanır. Java, C++, C#, Python, PHP, JavaScript gibi diller başlıca
 Object Oriented Programming dilleridir.
