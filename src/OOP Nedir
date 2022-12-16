@@ -33,13 +33,13 @@ daha güvenli bir access modifier’dır. Aynı class içinde görüntülenebili
 ve aynı paket içinde bulunan sınıflar tarafından görüntülenebilir veya erişebilirler. Private en güvenli access modifier’dır. Private olanlar
 yalnızca içinde olduğu class tarafından görülebilir veya erişilebilirler.
 
-===Polymorphism (Polimorfizm)
+Polymorphism (Polimorfizm);
 Polymorphism OOP'de programlama dilinin farklı tip verileri ve sınıfları farklı şekilde işleme yeteneğini belirten özelliğidir. Yani, metotları ve
 türetilmiş class ları yeniden tanımlama yeteneğidir. Örnek olarak şekil diye bir class olsun; polymorphism sayesinde programcı farklı şekillerin
 alanlarını farklı metotlar ile belirleyebilir. Şeklin ne olduğu fark etmeksizin program kullanıcıya doğru alanı verecektir. Kelime anahtarı olarak
 Override aklımıza gelebilir.
 
-===Abstraction (Soyutlama)
+Abstraction (Soyutlama);
 Abstraction OPP’nin temel kavramlarından biridir. Alt sınıfların ortak özelliklerini ve işlevlerini taşıyan ancak henüz bir object tii olmayan
 bir üst sınıf oluşturmak istenirse bir soyut (abstract) üst sınıf oluşturulur. Soyut class ın yöntemleri alt class ları tarafından üzerine yazılmak
 üzere şablon olarak tanımlanabilir veya soyut metot olarak oluşturulabilir. Soyut metota sahip bir class otomatik olarak kendisi de soyut hale gelir
