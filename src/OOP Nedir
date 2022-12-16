@@ -12,14 +12,14 @@ nesneler mesajlar ileterek birbirleriyle etkileşime girer.
 OOP, Class(sınıf), Objects(nesneler) ve bu ikisi etrafında dönen Inheritance(katılım), Polymorphism(polimorfizm),
 Abstraction(soyutlama), Encapsulation(kapsülleme) gibi diğer kavramlarla ilişkili bir programlama biçimidir.
 
-===Object ve Class
+Object ve Class;
 Class belli tür bir object in metotlarının ve değişkenlerinin şablon tanımıdır. Yani bir object bir class ın özel
 bir örneğidir ve değişkenlerden ziyade gerçek değişkenler barındırır. Örneğin “Student” diye bir class olsun.
 Bu class daki her öğrenci birer objectir ve isim, soyisim, öğrencinin ganosu gibi özellikleri mevcuttur.
 OOP’nin bu özelliği sayesinde ortak özellikler barındıran bir grubun her üyesi için özellik başlıkları (attributes)
 ayrı ayrı girilmesine gerek duyulmamaktadır. Onlar için özel bir class oluşturulabilir ve her birine aynı özellikler verilebilir.
 
-===heritance (Kalıtım)
+Heritance (Kalıtım);
 Inheritance (kalıtım) bir class dan başka bir class türetirken aralarında bir alt-üst(parent-child) ilişkisi oluşturmayı ve bu
 class lar üzerinde ortak metotlar ve özellikler kullanılmasını sağlayan bir mekanizmadır. OPP'nin temel kavramlarından biridir.
 Hali hazırda var olan class ların üzerine başka class ların inşa edilmesini sağlar.
