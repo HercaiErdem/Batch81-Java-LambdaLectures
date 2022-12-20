@@ -77,8 +77,8 @@ public class StringBuilderMethods {
         StringBuilder sentece1 = new StringBuilder();
         sentece1.append("Bugun Java dersi var");
 
-       int son = sentece1.length();
-        for (int i = 0; i <son; i++) {
+        int son = sentece1.length();
+        for (int i = 0; i < son; i++) {
             sentece1.deleteCharAt(0);
             System.out.println(sentece1);
 
