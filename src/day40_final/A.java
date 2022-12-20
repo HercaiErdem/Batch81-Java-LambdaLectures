@@ -14,7 +14,8 @@ public class A {
      ve genelde static final olarak belirlenen variable isimleri BUYUK HARFLE yazilir
      */
     final void finalMethod() {
-        System.out.println("final method'lat override edilemez");
+        System.out.println("final method'lar override edilemez");
+
         /*
           bir method'u final olarak isaretlerseniz
           bu method degistirilemez demektir
