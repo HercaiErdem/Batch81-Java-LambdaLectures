@@ -6,7 +6,7 @@ public class FSupra extends EToyota {
         System.out.println("Supra benzin kullanir");
 
         /*
-        Priave method lar override edilemez
+        Private method lar override edilemez
         Eger child class da parent class'daki
         private () ile ayni signutare da bir () olusturursaniz
          bu overriding olmaz
@@ -16,7 +16,7 @@ public class FSupra extends EToyota {
     @Override
     void motor() {
         /*
-          @Override notasyonu Javaya bir gorev verir
+          @Override notasyonu Java ya bir gorev verir
           Java, bu notasyonla birbirine bagli olan iki method'u
           surekli kontrol eder
           Eger parent class'daki overridden method'u silerseniz
