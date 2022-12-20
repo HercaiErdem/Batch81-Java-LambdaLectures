@@ -31,7 +31,6 @@ public class StringBuilderMethods {
         StringBuilder tersineCevir = new StringBuilder("Hayat Java ile cok guzel.");
         tersineCevir.reverse();
         System.out.println("tersineCevir = " + tersineCevir); // .lezug koc eli avaJ tayaH
-
         // StringBuilder da verilen input u tersine cevirme islemi reserve() ile yapilir.
 
         StringBuilder indexiniBulma = new StringBuilder();
