@@ -13,7 +13,7 @@ public class StringBuilderMethods {
         instructor.append(" yasindadir.");
         System.out.println("instructor = " + instructor); //  Hercai Sevval Erdem, 24 yasindadir.
 
-        // append() u StringBuilder larda ekleme yapmak icin kuyllanilir. Ama sadece sona ekleme yapar.
+        // append() u StringBuilder larda ekleme yapmak icin kullanilir. Ama sadece sona ekleme yapar.
 
         instructor.insert(20, " daha");
         System.out.println("instructor = " + instructor); // Hercai Sevval Erdem, daha 24 yasindadir.
