@@ -7,6 +7,7 @@ final public class B extends A {
         System.out.println(A.OKUL);
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Short.MIN_VALUE);
+
         /*
         bir class final olarak belirlenirse,
         o class inherit edilemez
