@@ -6,7 +6,7 @@ public class DAraba {
         System.out.println("Tum arabalar yakit kullanir");
 
         /*
-        Parent class dan override edilmesini istemedigimiz () lati
+        Parent class dan override edilmesini istemedigimiz () lari
         private, static ve final yapabilirsiniz
          */
     }
