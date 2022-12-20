@@ -13,7 +13,6 @@ public class Split {
             System.out.println(Arrays.toString(arr));
             Arrays.sort(arr);
             System.out.println(Arrays.toString(arr));
-
         }
         */
     public static void main(String[] args) {
@@ -27,6 +26,5 @@ public class Split {
 
 
     }
-
 
 }
