@@ -4,7 +4,7 @@ public class C01_AbstractClassOzet {
     /*
     Abstract Class Ozet
     1- Bir class’i abstract yapip yapmamaya bastan karar veririz.
-    Eger bir class’dan obje olusturmayacaksak,
+    Eger bir class’dan obje olusturmayacaksak;
     o class’i child class’larinin uymasi gereken kurallari
     belirleyecek sekilde dizayn etmek istiyorsak, abstract class yapariz.
     2- Abstract bir class’da child class’larin mutlaka uymasi gereken kurallari
