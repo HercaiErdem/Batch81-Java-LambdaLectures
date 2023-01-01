@@ -1,7 +1,6 @@
 package day44_collections;
 
-import java.util.Deque;
-import java.util.LinkedList;
+import java.util.*;
 
 public class C05_LinkedList_DequeDataTuru {
     public static void main(String[] args) {
@@ -13,6 +12,6 @@ public class C05_LinkedList_DequeDataTuru {
         ll4.add("Selim");
         ll4.removeLastOccurrence("Selim");
         System.out.println(ll4); // [Cavidan, Mesut, Selim, Tevfik]
-        System.out.println(ll4.pop());
+        System.out.println(ll4.pop()); // Cavidan
     }
 }
