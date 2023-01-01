@@ -1,7 +1,6 @@
 package day44_collections;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class C04_LinkedList_QueueDataTuru {
     public static void main(String[] args) {
