@@ -1,8 +1,6 @@
 package day43_interfaces_iterators;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class M04_ListIterator {
     public static void main(String[] args) {
