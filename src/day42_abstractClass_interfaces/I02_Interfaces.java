@@ -1,11 +1,6 @@
 package day42_abstractClass_interfaces;
 
 
-import day40_final.A;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public interface I02_Interfaces {
     /*
      Interface bir class degildir
