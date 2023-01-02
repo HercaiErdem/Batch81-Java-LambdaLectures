@@ -1,6 +1,5 @@
 package lambda_functional_programming;
 
-import java.util.List;
 import java.util.stream.IntStream;
 
 public class Fp04 {
