@@ -1,8 +1,6 @@
 package day23_arrayLists;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class C08_equals {
     public static void main(String[] args) {
