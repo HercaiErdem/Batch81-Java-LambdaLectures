@@ -1,8 +1,5 @@
 package lambda_practice;
 
-import java.util.Comparator;
-import java.util.List;
-
 public class Methodlarim {//seed (tohum) methodlar create edildi
 
     public static void yazdir(Object obj) {
