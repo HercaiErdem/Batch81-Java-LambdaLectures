@@ -1,8 +1,7 @@
 package lambda_practice;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.stream.*;
 
 public class Lambda01 {//okul projesinde listele vb lamda expression ile yapiniz
     static ArrayList<String> names = new ArrayList<>(
