@@ -1,8 +1,6 @@
 package lambda_functional_programming;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class Fp03 {
 
