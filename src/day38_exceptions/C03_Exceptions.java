@@ -1,7 +1,6 @@
 package day38_exceptions;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import java.util.*;
 
 public class C03_Exceptions {
     public static void main(String[] args) {
