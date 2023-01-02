@@ -1,8 +1,6 @@
 package day48_maps_TheEnd;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class C01_NestedMaps {
     public static void main(String[] args) {
