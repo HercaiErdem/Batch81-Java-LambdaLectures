@@ -1,10 +1,6 @@
 package lambda_practice;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-import java.util.stream.Collectors;
+import java.util.*;
 
 public class LambdaAdvanced {
     //multi arrayleri cevirirken flapMap kullaniriz yapilis sekli iki turludur
