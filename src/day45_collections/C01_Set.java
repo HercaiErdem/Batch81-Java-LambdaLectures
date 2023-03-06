@@ -1,8 +1,6 @@
 package day45_collections;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class C01_Set {
     public static void main(String[] args) {
