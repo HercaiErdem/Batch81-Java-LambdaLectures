@@ -60,12 +60,6 @@ public class Fp01 {
         getTersSiralamaylaTekrarsizElemanlarinSiralamasi(liste);
 
 
-
-
-
-
-
-
     }
 
     //1) Ardışık list elementlerini aynı satırda aralarında boşluk bırakarak yazdıran bir method oluşturun.(Structured)
@@ -214,25 +208,14 @@ public class Fp01 {
 
     public static void getTersSiralamaylaTekrarsizElemanlarinSiralamasi(List<Integer> list) {
 
-     List<Double> sonuc =   list.stream().distinct().filter(t -> t > 5).map(t -> t / 2.0)
+        List<Double> sonuc = list.stream().distinct().filter(t -> t > 5).map(t -> t / 2.0)
                 .sorted(Comparator.reverseOrder()).collect(Collectors.toList());
 
         System.out.println("sonuc = " + sonuc);
 
- System.out.println ("Bunu pull yapayim");
-     
+        System.out.println("Bunu pull yapayim");
+
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
