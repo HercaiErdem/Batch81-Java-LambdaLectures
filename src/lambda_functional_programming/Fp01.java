@@ -123,7 +123,7 @@ public class Fp01 {
 
     }
 
-//5) Tekrarsız çift elemanlarin karelerinin toplamını hesaplayan bir method oluşturun.
+   //5) Tekrarsız çift elemanlarin karelerinin toplamını hesaplayan bir method oluşturun.
 
     public static void tekrarsizCiftElemanlarinKarelerininToplami(List<Integer> list) {
 
