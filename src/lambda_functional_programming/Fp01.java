@@ -123,7 +123,7 @@ public class Fp01 {
 
     }
 
-   //5) Tekrarsız çift elemanlarin karelerinin toplamını hesaplayan bir method oluşturun.
+    //5) Tekrarsız çift elemanlarin karelerinin toplamını hesaplayan bir method oluşturun.
 
     public static void tekrarsizCiftElemanlarinKarelerininToplami(List<Integer> list) {
 
@@ -134,7 +134,7 @@ public class Fp01 {
     }
 
 
-   //6) Tekrarsız çift elemanların küpünün çarpımını hesaplayan bir method oluşturun.
+    //6) Tekrarsız çift elemanların küpünün çarpımını hesaplayan bir method oluşturun.
 
 
     public static void tekrarsizCiftElemanlarinKupunCarpimi(List<Integer> list) {
@@ -203,7 +203,7 @@ public class Fp01 {
 
     }
 
-    ///10) Ters sıralama ile tekrarsız ve 5'ten büyük elemanların
+    //10) Ters sıralama ile tekrarsız ve 5'ten büyük elemanların
     // yarı değerlerini(elamanın ikiye bölüm sonucunu) bulan bir method oluşturun.
 
     public static void getTersSiralamaylaTekrarsizElemanlarinSiralamasi(List<Integer> list) {
