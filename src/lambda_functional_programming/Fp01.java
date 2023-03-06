@@ -114,8 +114,8 @@ public class Fp01 {
         list.stream().filter(t -> t % 2 != 0).map(t -> t * t).forEach(t -> System.out.print(t + " "));
         //elemanlarin degeri degisecekse map () kullanilir.
     }
-//4) Ardışık tek list elementlerinin küplerini tekrarsız olarak aynı satırda
-//  aralarında boşluk bırakarak yazdıran bir method oluşturun.
+    //4) Ardışık tek list elementlerinin küplerini tekrarsız olarak aynı satırda
+    //  aralarında boşluk bırakarak yazdıran bir method oluşturun.
 
     public static void tekrarsizTekElemanlarininKupunuYazdir(List<Integer> list) {
 
