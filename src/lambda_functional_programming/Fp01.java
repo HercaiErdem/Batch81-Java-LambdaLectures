@@ -157,7 +157,7 @@ public class Fp01 {
 
     }
 
-// 2. yol
+    // 2. yol
 
 
     public static void getMaxEleman02(List<Integer> list) {
