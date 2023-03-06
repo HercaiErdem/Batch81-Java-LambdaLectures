@@ -193,7 +193,7 @@ public class Fp01 {
         System.out.println("min ikinci yol = " + min);
 
     }
-// 3. yol
+     // 3. yol
 
     public static void getYedidenBuyukMin03(List<Integer> list) {
 
