@@ -134,7 +134,7 @@ public class Fp01 {
     }
 
 
-//6) Tekrarsız çift elemanların küpünün çarpımını hesaplayan bir method oluşturun.
+   //6) Tekrarsız çift elemanların küpünün çarpımını hesaplayan bir method oluşturun.
 
 
     public static void tekrarsizCiftElemanlarinKupunCarpimi(List<Integer> list) {
