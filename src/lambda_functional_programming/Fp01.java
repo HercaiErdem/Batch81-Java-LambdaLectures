@@ -168,7 +168,7 @@ public class Fp01 {
 
     }
 
-//Ödev
+    //Ödev
     //8)List elemanları arasından en küçük değeri bulan bir method oluşturun.(2 Yol ile)
 
     //9) List elemanları arasından 7'den büyük, çift, en küçük değeri bulan bir method oluşturun.
@@ -193,7 +193,7 @@ public class Fp01 {
         System.out.println("min ikinci yol = " + min);
 
     }
-     // 3. yol
+    // 3. yol
 
     public static void getYedidenBuyukMin03(List<Integer> list) {
 
