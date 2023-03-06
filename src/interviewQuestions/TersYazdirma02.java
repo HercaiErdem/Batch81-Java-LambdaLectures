@@ -1,6 +1,6 @@
 package interviewQuestions;
 
-import java.util.Scanner;
+
 
 public class TersYazdirma02 {
     /*
