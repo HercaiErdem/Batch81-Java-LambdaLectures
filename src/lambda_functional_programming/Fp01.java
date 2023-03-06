@@ -105,8 +105,8 @@ public class Fp01 {
 
 
     }
-//3) Ardışık tek list elemanlarinin karelerini aynı satırda aralarında boşluk bırakarak
-// yazdıran bir method oluşturun.(Functional)
+    //3) Ardışık tek list elemanlarinin karelerini aynı satırda aralarında boşluk bırakarak
+    // yazdıran bir method oluşturun.(Functional)
 
 
     public static void tekElemanlarinKareleriniYazdir(List<Integer> list) {
