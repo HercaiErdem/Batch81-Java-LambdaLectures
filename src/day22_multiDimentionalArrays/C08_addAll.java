@@ -1,7 +1,6 @@
 package day22_multiDimentionalArrays;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class C08_addAll {
     public static void main(String[] args) {
@@ -20,5 +19,6 @@ public class C08_addAll {
         System.out.println(sayilar1); // [5, 10, 15, 16, 20, 3, 2, 10, 15, 16, 20]
         // bir listenin sonuna veya istedigimiz bir indexine,
         // baska bir collection ekleyebiliriz
+
     }
 }
