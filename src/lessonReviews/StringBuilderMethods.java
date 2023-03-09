@@ -1,6 +1,5 @@
 package lessonReviews;
 
-import java.util.Scanner;
 
 public class StringBuilderMethods {
 
