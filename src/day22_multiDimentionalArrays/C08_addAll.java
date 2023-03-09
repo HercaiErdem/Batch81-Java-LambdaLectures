@@ -2,6 +2,7 @@ package day22_multiDimentionalArrays;
 
 import java.util.ArrayList;
 import java.util.List;
+
 public class C08_addAll {
     public static void main(String[] args) {
         List<Integer> sayilar1 = new ArrayList<>();
