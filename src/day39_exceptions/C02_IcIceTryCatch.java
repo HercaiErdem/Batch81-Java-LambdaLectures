@@ -1,8 +1,6 @@
 package day39_exceptions;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 public class C02_IcIceTryCatch {
     public static void main(String[] args) {
