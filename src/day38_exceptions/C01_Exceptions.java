@@ -9,11 +9,11 @@ public class C01_Exceptions {
 
         while (sayac < 100) {
 
-            if (b==0) {
+            if (b == 0) {
                 System.out.println("islem yapilirken payda 0 oldu, dikkat etmelisiniz");
-            }else
+            } else
 
-            System.out.println(a / b);
+                System.out.println(a / b);
             b--;
             sayac++;
         }
