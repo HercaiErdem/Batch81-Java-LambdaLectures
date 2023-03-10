@@ -1,6 +1,6 @@
 package day39_exceptions;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class C05_IllegalArgumentException {
     public static void main(String[] args) throws IllegalAccessException {
