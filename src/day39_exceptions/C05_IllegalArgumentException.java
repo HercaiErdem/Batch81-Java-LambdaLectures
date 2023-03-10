@@ -4,7 +4,7 @@ import java.util.*;
 
 public class C05_IllegalArgumentException {
     public static void main(String[] args) throws IllegalAccessException {
-        //Soru: Kullanicidan yasini girmesini isteyin.
+        // Soru: Kullanicidan yasini girmesini isteyin.
         // Kodunuzu kullanici sifirdan kucuk bir sayi girerse
         // Exception verecek sekilde yazin.
 
