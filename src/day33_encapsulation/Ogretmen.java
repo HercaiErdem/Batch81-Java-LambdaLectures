@@ -44,11 +44,4 @@ public class Ogretmen {
     }
 
 
-
-
-
-
-
-
-
 }
