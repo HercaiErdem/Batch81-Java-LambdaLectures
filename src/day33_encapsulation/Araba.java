@@ -19,11 +19,5 @@ public class Araba {
         return yakit;
 
 
-
-
-
-
-
-
     }
 }
