@@ -39,4 +39,5 @@ public class Tasit {
     }
 
     private int yil;
+
 }
