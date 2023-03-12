@@ -22,12 +22,7 @@ public class ArabaRunner {
         System.out.println(arb1.getYakit()); // Elektrikli bilgisini yazdirabildik
         // yakiti degistiremeyiz cunku setter method'u yok
 
-arb1.setModel("BMW");
-
-
-
-
-
+        arb1.setModel("BMW");
 
 
     }
