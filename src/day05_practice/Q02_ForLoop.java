@@ -11,7 +11,7 @@ public class Q02_ForLoop {
     Örnek Ekran Çıktısı
     Girilen sayı=4
     Kareler toplamı=14
- */
+    */
 
     public static void main(String[] args) {
 
@@ -19,12 +19,10 @@ public class Q02_ForLoop {
         System.out.println("1 den buyuk bir tamsayi giriniz");
         int sayi = scan.nextInt();
         int toplam = 0;
-        for (int i =1 ; i<sayi; i++){
-            toplam += (i*i);
+        for (int i = 1; i < sayi; i++) {
+            toplam += (i * i);
         }
         System.out.println("sayilarin kareleri toplami : " + toplam);
-
-
 
 
     }
