@@ -18,9 +18,5 @@ public class C06_replace {
         System.out.println(sb); // Calm down
 
 
-
-
-
-
     }
 }
