@@ -5,12 +5,12 @@ public class C05_subSequence {
 
         StringBuilder sb = new StringBuilder("Kayra");
 
-        sb.substring(0,3);
+        sb.substring(0, 3);
         // Bu method String dondurdugu icin StringBuilder eski halini degistiremez
 
         System.out.println(sb); // Kayra
 
-        sb.subSequence(0,3);
+        sb.subSequence(0, 3);
 
         System.out.println(sb); // Kayra
 
