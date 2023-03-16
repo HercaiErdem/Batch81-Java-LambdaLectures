@@ -42,16 +42,14 @@ public class C02_Swap {
         // sayi3=35;
         // olsun
 
-        sayi4=sayi3; // 30 35 40 40
-        sayi3=sayi2; // 30 35 35 40
-        sayi2= sayi1; // 30 30 35 40
+        sayi4 = sayi3; // 30 35 40 40
+        sayi3 = sayi2; // 30 35 35 40
+        sayi2 = sayi1; // 30 30 35 40
         sayi1 = sayi4; // 40 3035 40
 
-        System.out.println("Swap'dan sonra sayi1: "+sayi1);
-        System.out.println("Swap'dan sonra sayi2: "+sayi2);
-        System.out.println("Swap'dan sonra sayi3: " +sayi3);
-
-
+        System.out.println("Swap'dan sonra sayi1: " + sayi1);
+        System.out.println("Swap'dan sonra sayi2: " + sayi2);
+        System.out.println("Swap'dan sonra sayi3: " + sayi3);
 
 
     }
