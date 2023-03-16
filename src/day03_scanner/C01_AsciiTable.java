@@ -35,7 +35,7 @@ public class C01_AsciiTable {
         // Konsolda verilen vari. kullanarak 10a yazmak istiyorsak ;
 
         System.out.println("" + sayi + harf);
-        System.out.println("" + harf+ sayi); // a10
+        System.out.println("" + harf + sayi); // a10
 
 
         double not = 30.9;
@@ -47,9 +47,9 @@ public class C01_AsciiTable {
 
         System.out.println(word + i);
 
-        char yeniDeger = '1' ;
+        char yeniDeger = '1';
 
-        System.out.println(yeniDeger+harf); // 146 --> 1'in ascii tabsosundaki degeri 49, a'nin ascii
+        System.out.println(yeniDeger + harf); // 146 --> 1'in ascii tabsosundaki degeri 49, a'nin ascii
         // tablosundaki degeri de 97 olduguna göre 49+97 = 146
 
 
