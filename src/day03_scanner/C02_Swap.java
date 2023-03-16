@@ -16,13 +16,12 @@ public class C02_Swap {
         sayi1= 20,
         sayi2= 10;
         olsun
-         */
 
-       /*  int sayi1 = 10;
+         int sayi1 = 10;
         int sayi2 = 20;
         int sayi3= 0;
 
-        // sayi3 gecici kovamiz
+         sayi3 gecici kovamiz
 
        sayi3 =sayi2;   // 10 20 20
        sayi2 =sayi1;  // 10 10 20
