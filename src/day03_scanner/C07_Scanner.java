@@ -1,6 +1,6 @@
 package day03_scanner;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class C07_Scanner {
 
@@ -15,7 +15,7 @@ public class C07_Scanner {
         String soyIsım = scan.nextLine();
         double yas = scan.nextDouble();
 
-        System.out.println("Girilen bilgiler = " + isim + " " + soyIsım +", " + yas);
+        System.out.println("Girilen bilgiler = " + isim + " " + soyIsım + ", " + yas);
 
     }
 }
