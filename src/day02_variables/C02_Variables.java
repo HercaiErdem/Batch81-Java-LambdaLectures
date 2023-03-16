@@ -6,20 +6,20 @@ public class C02_Variables {
 
         int sayi = 10;
 
-        boolean guzelMi = true ;
+        boolean guzelMi = true;
 
         System.out.println(sayi);
 
         System.out.println("sayi");
 
         System.out.println("sayi = " + sayi);
-        
+
         int sayi1 = 20;
         System.out.println("sayi1 = " + sayi1);
-        
-        int ort = (sayi+sayi1) /2 ;
+
+        int ort = (sayi + sayi1) / 2;
         System.out.println("ort = " + ort);
-        
+
 
     }
 
