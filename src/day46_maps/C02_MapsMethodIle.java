@@ -1,7 +1,6 @@
 package day46_maps;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class C02_MapsMethodIle {
     public static void main(String[] args) {
