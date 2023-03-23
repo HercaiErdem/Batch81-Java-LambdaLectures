@@ -28,7 +28,7 @@ public class C04_LinkedList_QueueDataTuru {
         System.out.println(ll3); // [Zeynep, Kadir, Ahmet]
         System.out.println(ll3.poll()); // Zeynep
         System.out.println(ll3); // [Kadir, Ahmet, Sefa]
-        //System.out.println(ll4.remove()); // throws exception NoSuchElementException
+        // System.out.println(ll4.remove()); // throws exception NoSuchElementException
         System.out.println(ll4.poll()); // null
     }
 }
