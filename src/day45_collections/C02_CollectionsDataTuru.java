@@ -13,7 +13,7 @@ public class C02_CollectionsDataTuru {
          */
         List<String> liste = new ArrayList();
         // liste.add(5);
-        //liste.add('s');
+        // liste.add('s');
         // liste.add(true);
         List<Object> list = new ArrayList();
         list.add(5);
