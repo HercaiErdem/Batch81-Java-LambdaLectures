@@ -19,15 +19,15 @@ public class Lambda01 {
      * OUTPUT : [Veli,Omer]
      */
     public static void aHarfleriSilenGerisiniYazdiran(ArrayList<String> isimler) {
-//        System.out.println(isimler.stream()//akiisa alindi
-//                .map(m -> m.toLowerCase())//hepsi kucuk harffe cevrilfi
-//                .filter(m -> !m.contains("a"))//a harfi olmayanlar filtrelendi
-//                .collect(Collectors.toList()));//lisste atildi
-//      2.yol
-//        System.out.println(isimler.stream()//akiisa alindi
-//                .filter(m -> !m.contains("a") && !m.contains("A"))//a harfi olmayanlar filtrelendi
-//                .collect(Collectors.toList()));//lisste atildi
-//3.yol
+        //        System.out.println(isimler.stream()//akiisa alindi
+        //                .map(m -> m.toLowerCase())//hepsi kucuk harffe cevrilfi
+        //                .filter(m -> !m.contains("a"))//a harfi olmayanlar filtrelendi
+        //                .collect(Collectors.toList()));//lisste atildi
+        //      2.yol
+        //        System.out.println(isimler.stream()//akiisa alindi
+        //                .filter(m -> !m.contains("a") && !m.contains("A"))//a harfi olmayanlar filtrelendi
+        //                .collect(Collectors.toList()));//lisste atildi
+        //3.yol
         isimler.removeIf(t -> t.contains("a") || t.contains("A"));
         System.out.println(names);
     }
@@ -42,13 +42,13 @@ public class Lambda01 {
         System.out.println("sayi.stream().reduce(Integer::max) = " + sayi.
                 stream().
                 reduce(Integer::max));//spesifik bir method cagirirsani daha hizli yani alirsinz
-//        reduce()-->azaltmak ... bir cok datayi tek bir dataya(max min carp top vs islemlerde) cevirmek icin kullanilir.
-//                kullanımı yaygındır pratiktir.
-//        Bir Stream içerisindeki verilerin teker teker işlenmesidir. Teker teker işleme sürecinde, bir önceki adımda elde edilen sonuç
-//        bir sonraki adıma girdi olarak sunulmaktadır. Bu sayede yığılmlı bir hesaplama süreci elde edilmiş olmaktadır.
-//                reduce metodu ilk parametrede identity değeri, ikinci parametrede ise BinaryOperator türünden bir obj kullanılır.
-//                reduce işleminde bir önceki hesaplanmış değer ile sıradaki değer bir işleme tabi tutulmaktadır.
-//        İşleme başlarken bir önceki değer olmadığı için bu değer identity parametresinde tanımlanmaktadır.
+        //        reduce()-->azaltmak ... bir cok datayi tek bir dataya(max min carp top vs islemlerde) cevirmek icin kullanilir.
+        //                kullanımı yaygındır pratiktir.
+        //        Bir Stream içerisindeki verilerin teker teker işlenmesidir. Teker teker işleme sürecinde, bir önceki adımda elde edilen sonuç
+        //        bir sonraki adıma girdi olarak sunulmaktadır. Bu sayede yığılmlı bir hesaplama süreci elde edilmiş olmaktadır.
+        //                reduce metodu ilk parametrede identity değeri, ikinci parametrede ise BinaryOperator türünden bir obj kullanılır.
+        //                reduce işleminde bir önceki hesaplanmış değer ile sıradaki değer bir işleme tabi tutulmaktadır.
+        //        İşleme başlarken bir önceki değer olmadığı için bu değer identity parametresinde tanımlanmaktadır.
     }
 
     // Task : List'teki tum elemanlarin toplamini yazdiriniz.
@@ -147,11 +147,11 @@ public class Lambda01 {
     }
 
     /*
-TRİCK : •    Stream'ler ekrana direk yazdırılamaz. Stream'i toArray() ile Array'e çeviririz.
-Array'i de Arrays.toString() 'in içine alıp yazdırabiliriz.
-•  Ör; System.out.println(Arrays.toString(***.toArray())); veya System.out.println(Arrays.asList(***.toArray()));
-kullanılabilir.
-*/
+     TRİCK : •    Stream'ler ekrana direk yazdırılamaz. Stream'i toArray() ile Array'e çeviririz.
+     Array'i de Arrays.toString() 'in içine alıp yazdırabiliriz.
+     •  Ör; System.out.println(Arrays.toString(***.toArray())); veya System.out.println(Arrays.asList(***.toArray()));
+     kullanılabilir.
+     */
     //TODO Task : list elemanlarini son harfine göre siralayıp ilk eleman hariç kalan elemanlari print ediniz.
     public static void sonHarfeGoreSiralaIlkHaricElmanlariYaz(List<String> yemek) {
     }
