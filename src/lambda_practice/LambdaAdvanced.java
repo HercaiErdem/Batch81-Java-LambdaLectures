@@ -4,11 +4,11 @@ import java.util.*;
 
 public class LambdaAdvanced {
     //multi arrayleri cevirirken flapMap kullaniriz yapilis sekli iki turludur
-//1) lamda kullanarak
-// Arrays.stream(arr).flatMap(t->Arrays.stream(t))
-//2) method ile
-// Arrays.stream(arr).flatMap(Arrays::stream)
-// BU SEKLIDE ARTIK TUM STREAM METHODLARI KULLANILABILIR
+    //1) lamda kullanarak
+    // Arrays.stream(arr).flatMap(t->Arrays.stream(t))
+    //2) method ile
+    // Arrays.stream(arr).flatMap(Arrays::stream)
+    // BU SEKLIDE ARTIK TUM STREAM METHODLARI KULLANILABILIR
     public static void main(String[] args) {
          /*TASK :
         2 Boyutlu bir Multidimensional array i input kabul edip, arraydeki tüm
