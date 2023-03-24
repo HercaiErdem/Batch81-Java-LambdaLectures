@@ -3,7 +3,8 @@ package lambda_practice;
 import java.util.*;
 import java.util.stream.*;
 
-public class Lambda01 {//okul projesinde listele vb lamda expression ile yapiniz
+public class Lambda01 {
+    //okul projesinde listele vb lamda expression ile yapiniz
     static ArrayList<String> names = new ArrayList<>(
             Arrays.asList("Tulay", "zekeriya", "hasan", "ismail", "osman", "fatih", "Ersin", "Mevlit"));
     static List<Integer> numbers = new ArrayList<>(Arrays.asList(25, 65, -56, 55, 98, -89, 65, 55, 21, -54, 9, 35, 35, 34));
