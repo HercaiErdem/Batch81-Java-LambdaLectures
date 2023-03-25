@@ -1,6 +1,6 @@
 package day05_practice;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Q01_ForLoop {
 
