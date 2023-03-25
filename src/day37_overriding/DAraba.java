@@ -2,7 +2,7 @@ package day37_overriding;
 
 public class DAraba {
 
-     void yakit() {
+    void yakit() {
         System.out.println("Tum arabalar yakit kullanir");
 
         /*
